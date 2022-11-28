@@ -151,11 +151,11 @@ int sumaV(int V[], int a)
 	*/
 
 }
-int multiV(int V[], int a)
+int multiV(int V[], int a){
+	
 //Darien estuvo aqui
 
-
-{  /*  if(a==0)
+ /*  if(a==0)
  		return V[0];
 
 	else 
@@ -163,6 +163,12 @@ int multiV(int V[], int a)
 	return (V[a] * multiV(V,a-1));
 	*/
 
+	if(a==0){
+		return V[0];
+	}else{
+		return (V[a]*multiV(V,a-1));
+	}
+	
 }
 int MCD (int a, int b){
 	//Ana Delia estuvo aqui 
