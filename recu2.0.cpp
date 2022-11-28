@@ -116,17 +116,21 @@ int division(int a, int b){
 	 return division(a-b, b) +1;
 	 
 */
+	if(b>a){
+		return 0;
+	} else {
+		return division(a-b, b) + 1;
+	}
 }
 void invertir (int a){
 	//Urrix its here xD
 	
-	/*
-	cout<<a%10;
-	if (a>10)
-	invertir(a/10);
 	
-	*/
-}
+	/*cout<<a%10;
+	if (a>10)
+	invertir(a/10);*/
+	
+	
 int sumatoria (int a){
 	//Daniel estuvo aqui
 	
