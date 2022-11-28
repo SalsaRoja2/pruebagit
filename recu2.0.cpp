@@ -180,5 +180,11 @@ int MCD (int a, int b){
 	else
 	return  MCD(b,a%b);
 */
+    if (b==0)
+    {
+        return a;
+    }
+    else
+        return MCD(b,a%b);
 	
 	}
