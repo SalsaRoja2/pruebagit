@@ -150,6 +150,13 @@ int sumatoria (int a){
 	else
 	return  a%10 + sumatoria(a/10);
 	*/
+	if (a==0)
+	{
+		return a;
+	}
+	
+	else
+	return  a%10 + sumatoria(a/10);
 }
 int sumaV(int V[], int a)
 {  /* if(a==0)
