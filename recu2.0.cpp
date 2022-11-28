@@ -126,9 +126,15 @@ void invertir (int a){
 	//Urrix its here xD
 	
 	
-	/*cout<<a%10;
+	/*
+	cout<<a%10;
 	if (a>10)
-	invertir(a/10);*/
+	invertir(a/10);
+	*/
+
+	cout<<a%10;
+	if (a>10)
+	invertir(a/10);
 	
 	
 int sumatoria (int a){
