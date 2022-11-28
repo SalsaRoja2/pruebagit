@@ -126,9 +126,15 @@ void invertir (int a){
 	//Urrix its here xD
 	
 	
-	/*cout<<a%10;
+	/*
+	cout<<a%10;
 	if (a>10)
-	invertir(a/10);*/
+	invertir(a/10);
+	*/
+
+	cout<<a%10;
+	if (a>10)
+	invertir(a/10);
 	
 	invertir(a/10);
 }
@@ -147,6 +153,13 @@ int sumatoria (int a){
 	else
 	return  a%10 + sumatoria(a/10);
 	*/
+	if (a==0)
+	{
+		return a;
+	}
+	
+	else
+	return  a%10 + sumatoria(a/10);
 }
 int sumaV(int V[], int a)
 {  /* if(a==0)
@@ -158,11 +171,11 @@ int sumaV(int V[], int a)
 	*/
 
 }
-int multiV(int V[], int a)
+int multiV(int V[], int a){
+	
 //Darien estuvo aqui
 
-
-{  /*  if(a==0)
+ /*  if(a==0)
  		return V[0];
 
 	else 
@@ -170,6 +183,12 @@ int multiV(int V[], int a)
 	return (V[a] * multiV(V,a-1));
 	*/
 
+	if(a==0){
+		return V[0];
+	}else{
+		return (V[a]*multiV(V,a-1));
+	}
+	
 }
 int MCD (int a, int b){
 	//Ana Delia estuvo aqui 
@@ -183,5 +202,11 @@ int MCD (int a, int b){
 	else
 	return  MCD(b,a%b);
 */
+    if (b==0)
+    {
+        return a;
+    }
+    else
+        return MCD(b,a%b);
 	
 	}
