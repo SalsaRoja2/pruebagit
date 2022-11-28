@@ -25,12 +25,9 @@ void menu();
 int main() {
 	menu();
 	//Kevin estuvo aqui :)
-<<<<<<< HEAD
 	
-	//Danie estuvo aqui
-=======
+	//Daniel estuvo aqui
 	//Darien estuvo aqui
->>>>>>> main
 	
 	
 	return 0;
