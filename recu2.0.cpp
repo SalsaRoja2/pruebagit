@@ -1,14 +1,14 @@
 #include <bits/stdc++.h> 
 
 using namespace std;
-/*Tarea de Recursividad, se debe entregar en un solo menú en aula virtual y en físico el día de su examen parcial.
+/*Tarea de Recursividad, se debe entregar en un solo menï¿½ en aula virtual y en fï¿½sico el dï¿½a de su examen parcial.
 
-Ejercicio . Programar un algoritmo recursivo que permita hacer la división por restas sucesivas.
-Ejercicio . Programar un algoritmo recursivo que permita invertir un número. Ejemplo: Entrada: 123 Salida: 321
-Ejercicio . Programar un algoritmo recursivo que permita sumar los dígitos de un número. Ejemplo: Entrada: 123 
+Ejercicio . Programar un algoritmo recursivo que permita hacer la divisiï¿½n por restas sucesivas.
+Ejercicio . Programar un algoritmo recursivo que permita invertir un nï¿½mero. Ejemplo: Entrada: 123 Salida: 321
+Ejercicio . Programar un algoritmo recursivo que permita sumar los dï¿½gitos de un nï¿½mero. Ejemplo: Entrada: 123 
 Ejercicio . Programar un algoritmo recursivo que permita sumar los elementos de un vector.
 Ejercicio . Programar un algoritmo recursivo que permita multiplicar los elementos de un vector.
-Ejercicio. Programar un algoritmo recursivo que calcule el Maximo comun divisor de dos números por el algoritmo de euclides
+Ejercicio. Programar un algoritmo recursivo que calcule el Maximo comun divisor de dos nï¿½meros por el algoritmo de euclides
 
 */
 
@@ -24,7 +24,7 @@ void menu();
 
 int main() {
 	menu();
-	
+	//Kevin estuvo aqui :)
 	
 	
 	
